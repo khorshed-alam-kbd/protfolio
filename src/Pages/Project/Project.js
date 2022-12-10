@@ -7,8 +7,8 @@ import paltinamTutorial from '../../Assets/platinam-tutorial.jpg'
 
 const Project = () => {
     return (
-        <div className='lg:flex flex-row gap-5 justify-center place-items-center'>
-            <div className="card card-compact w-96 bg-base-200 shadow-xl mb-5">
+        <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            <div className="card card-compact mx-auto w-72 lg:w-80 bg-base-200 shadow-xl mb-5">
                 <figure><img src={platinam} alt="platinam" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">PLATINAM</h2>
@@ -19,7 +19,7 @@ const Project = () => {
                     </div>
                 </div>
             </div>
-            <div className="card card-compact w-96 bg-base-200 shadow-xl mb-5">
+            <div className="card card-compact mx-auto w-72 lg:w-80 bg-base-200 shadow-xl mb-5">
                 <figure><img src={kaPhotograhy} alt="kaPhotography" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">KA PHOTOGRAPHY</h2>
@@ -30,7 +30,7 @@ const Project = () => {
                     </div>
                 </div>
             </div>
-            <div className="card card-compact w-96 bg-base-200 shadow-xl mb-5">
+            <div className="card card-compact mx-auto w-72 lg:w-80 bg-base-200 shadow-xl mb-5">
                 <figure><img src={paltinamTutorial} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">PLATINAM TUTORIAL</h2>
