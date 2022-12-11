@@ -3,9 +3,9 @@ import skills from '../../Assets/skills.png'
 
 const Skills = () => {
     return (
-        <div className='mx-10'>
-            <div className="card card-side bg-base-100 shadow-xl">
-                <figure><img src={skills} alt="skills" className='w-96' /></figure>
+        <div className=''>
+            <div className="card flex-col lg:flex-row bg-base-100">
+                <figure><img src={skills} alt="skills" className='w-96 lg:rounded-2xl' /></figure>
                 <div className="card-body">
                     <p>Expertise: HTML5 | CSS3 | ES6 | JavaScript | React.js | Bootstrap | React Bootstrap | Tailwind CSS | DaisyUI.</p>
                     <p>Comfortable: Express.js | Node.js | MongoDB | JSON | REST Api | React Query | React Hook Form.</p>

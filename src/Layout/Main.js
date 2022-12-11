@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import Footer from '../Pages/Shared/Footer/Footer';
 import Header from '../Pages/Shared/Header/Header';
+import { FaGithub, FaFacebook, FaLinkedinIn, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Main = () => {
     const downloadResume = () => {
@@ -21,7 +22,22 @@ const Main = () => {
                 <input id="ka-header-drawer" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content">
                     <Header></Header>
-                    <Outlet></Outlet>
+                    <div className='grid grid-cols-12'>
+                        <div className='hidden lg:grid text-center absolute bottom-0 left-3'>
+                            <div className="menu menu-vertical ">
+                                <li><a href="https://github.com/khorshed-alam-kbd/" target="blank"><FaGithub /></a></li>
+                                <li><a href="https://linkedin.com/in/khorshedalam-kbd/" target="blank"><FaLinkedinIn /></a></li>
+                                <li><a href="https://facebook.com/engr.khorshedalam.bd/" target="blank"><FaFacebook /></a></li>
+                                <li><a href="https://instagram.com/khor__shed/" target="blank"><FaInstagram /></a></li>
+                                <li><a href="https://twitter.com/khor__shed" target="blank"><FaTwitter /></a></li>
+                                <div style={{ writingMode: 'vertical-rl' }}>_________________________</div>
+                            </div>
+                        </div>
+                        <div className='col-start-2 col-span-10'><Outlet></Outlet></div>
+                        <div className='hidden lg:grid text-center absolute bottom-0 right-10'>
+                            <div style={{ writingMode: 'vertical-rl' }}>khorshedalam.kbd@gmail.com ____________________</div>
+                        </div>
+                    </div>
                     <Footer></Footer>
                 </div>
                 <div className="drawer-side">
@@ -35,13 +51,13 @@ const Main = () => {
                             <li><a href="/#contact">Contact</a></li>
                             <li><Link to='/blog'>Blog</Link></li>
                         </ul>
-                        <li><Link onClick={downloadResume} className="btn  btn-outline mt-5">Resume</Link></li>
+                        <li><Link onClick={downloadResume} className="btn btn-outline mt-5">Resume</Link></li>
                     </ul>
                 </div>
             </div>
 
 
-        </div>
+        </div >
     );
 };
 

@@ -7,7 +7,7 @@ const About = () => {
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={kaImg} className="w-3/4 lg:max-w-sm rounded-lg shadow-2xl" alt='khorshed' />
                 <div>
-                    <p>I am completed Bachelor of Science in Computer Science and Engineering from the World University of Bangladesh. I am passionate about developing web applications and working across MERN-Stack development. My recently finished web development course experience has shaped my code evaluation and website development knowledge.</p>
+                    <p>I am Md. Khorshed Alam completed Bachelor of Science in Computer Science and Engineering from the World University of Bangladesh. I am passionate about developing web applications and working across MERN-Stack development. My recently finished web development course experience has shaped my code evaluation and website development knowledge.</p>
                     <br />
                     <p>I have developed Full-stack web application projects and designed front-end UI. I have also experience in the database and backend. I have experience in React.js, Node.js, MongoDB, Bootstrap, Tailwind CSS, and DaisyUI.</p>
                     <br />
