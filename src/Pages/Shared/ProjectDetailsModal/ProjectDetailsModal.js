@@ -12,7 +12,7 @@ const ProjectDetailsModal = () => {
                 <div className="modal">
                     <div className="modal-box w-11/12 max-w-2xl">
                         <label htmlFor="my-project-1" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                        <figure><img src={img1} alt="" className='rounded-xl' /></figure>
+                        {/* <figure><img src={img1} alt="" className='rounded-xl' /></figure> */}
                         <div className='bg-base-200 p-5 my-5 rounded-xl'>
                             <h3 className="text-lg font-bold">PLATINAM - is laptops resealing website</h3>
                             <p className="text font-semibold pt-3">Features:</p>
@@ -39,7 +39,7 @@ const ProjectDetailsModal = () => {
                 <div className="modal">
                     <div className="modal-box w-11/12 max-w-2xl">
                         <label htmlFor="my-project-2" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                        <figure><img src={img2} alt="" className='rounded-xl' /></figure>
+                        {/* <figure><img src={img2} alt="" className='rounded-xl' /></figure> */}
                         <div className='bg-base-200 p-5 my-5 rounded-xl'>
                             <h3 className="text-lg font-bold">KA PHOTOGRAPHY- is weeding photography website</h3>
                             <p className="text font-semibold pt-3">Features:</p>
@@ -66,7 +66,7 @@ const ProjectDetailsModal = () => {
                 <div className="modal scrollbar-hide">
                     <div className="modal-box w-11/12 max-w-2xl">
                         <label htmlFor="my-project-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                        <figure><img src={img3} alt="" className='rounded-xl' /></figure>
+                        {/* <figure><img src={img3} alt="" className='rounded-xl' /></figure> */}
                         <div className='bg-base-200 p-5 my-5 rounded-xl'>
                             <h3 className="text-lg font-bold">PLATINAM TUTORIAL- is e-Learning website</h3>
                             <p className="text font-semibold pt-3">Features:</p>
