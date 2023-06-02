@@ -1,8 +1,5 @@
 import React from 'react';
 import { FaExternalLinkAlt, FaGithub, FaGithubSquare } from 'react-icons/fa';
-import img1 from '../../../Assets/platinam.jpg'
-import img2 from '../../../Assets/ka-photography.jpg'
-import img3 from '../../../Assets/platinam-tutorial.jpg'
 const ProjectDetailsModal = () => {
     return (
         <div>
