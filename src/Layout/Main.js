@@ -44,12 +44,12 @@ const Main = () => {
                     <label htmlFor="ka-header-drawer" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-1/2 bg-base-100 text-base-content">
                         <li className='place-content-end'><label htmlFor="ka-header-drawer" className="btn btn-sm btn-circle ">✕</label></li>
-                        <ul className="menu menu-vertical text-center px-1">
-                            <li><a href="/#about-me" htmlFor="ka-header-drawer">About</a></li>
-                            <li><a href="/#projects">Projects</a></li>
-                            <li><a href="/#skills">Skills</a></li>
-                            <li><a href="/#contact">Contact</a></li>
-                            <li><Link to='/blog'>Blog</Link></li>
+                        <ul className="text-center px-1">
+                            <li><a href="/#about-me" htmlFor="ka-header-drawer" className='hover:border-l-2 hover:border-amber-300 px-4 mx-2'>About</a></li>
+                            <li><a href="/#projects" className='hover:border-l-2 hover:border-amber-300 px-4 mx-2'>Projects</a></li>
+                            <li><a href="/#skills" className='hover:border-l-2 hover:border-amber-300 px-4 mx-2'>Skills</a></li>
+                            <li><a href="/#contact" className='hover:border-l-2 hover:border-amber-300 px-4 mx-2'>Contact</a></li>
+                            <li><Link to='/blog' className='hover:border-l-2 hover:border-amber-300 px-4 mx-2'>Blog</Link></li>
                         </ul>
                         <li><Link onClick={downloadResume} className="btn btn-outline mt-5">Resume</Link></li>
                     </ul>

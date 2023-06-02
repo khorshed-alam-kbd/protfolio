@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../../Assets/khorshed-photo.jpg'
 
@@ -15,6 +15,7 @@ const Header = () => {
             })
         })
     }
+
     return (
         <div className="navbar bg-base-100 px-10 fixed z-30">
             <div className="navbar-start">
@@ -28,12 +29,12 @@ const Header = () => {
 
             <div className="navbar-end">
                 <div className="hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 font-semibold">
-                        <li><a href="/#about-me">About</a></li>
-                        <li><a href="/#projects">Projects</a></li>
-                        <li><a href="/#skills">Skills</a></li>
-                        <li><a href="/#contact">Contact</a></li>
-                        <li><Link to='/blog'>Blog</Link></li>
+                    <ul className="mx-10 flex px-1 font-semibold">
+                        <li><a href="/#about-me" className='hover:border-b-2  hover:border-amber-300 pb-2 px-4 mx-2'>About</a></li>
+                        <li><a href="/#projects" className='hover:border-b-2 hover:border-amber-300 pb-2 px-4 mx-2'>Projects</a></li>
+                        <li><a href="/#skills" className='hover:border-b-2 hover:border-amber-300 pb-2 px-4 mx-2'>Skills</a></li>
+                        <li><a href="/#contact" className='hover:border-b-2 hover:border-amber-300 pb-2 px-4 mx-2'>Contact</a></li>
+                        <li><Link to='/blog' className='hover:border-b-2 hover:border-amber-300 pb-2 px-4 mx-2'>Blog</Link></li>
                     </ul>
                 </div>
                 <Link onClick={downloadResume} className="btn btn-outline hidden lg:flex">Resume</Link>
@@ -43,7 +44,7 @@ const Header = () => {
                     </label>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
