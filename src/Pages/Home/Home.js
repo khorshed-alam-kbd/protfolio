@@ -11,17 +11,18 @@ const Home = () => {
     return (
         <div className=''>
             <Banner></Banner>
-            <div className="divider font-bold" id='projects'>PROJECTS</div>
+            <div className="divider font-bold my-5" id='projects'>PROJECTS</div>
             <Project></Project>
-            <div className="divider font-bold" id='skills'>SKILLS & TECHNOLOGIES</div>
+            <div className="divider font-bold my-5" id='skills' >SKILLS & TECHNOLOGIES</div>
             <Skills></Skills>
-            <div className="divider font-bold" id='skills'>CERTIFICATIONS</div>
+            <div className="divider font-bold my-5" id='skills'>CERTIFICATIONS</div>
             <Certificates></Certificates>
-            <div className="divider font-bold uppercase" id='skills'> international conference & publication</div>
+            <div className="divider font-bold uppercase hidden lg:flex my-5" id='skills'> international conference & publication </div>
+            <div className="divider font-bold uppercase lg:hidden my-5" id='skills'> international <br /> conference & publication </div>
             <IntConferencePublication></IntConferencePublication>
-            <div className="divider font-bold" id='about-me'>ABOUT ME</div>
+            <div className="divider font-bold my-5" id='about-me'>ABOUT ME</div>
             <About></About>
-            <div className="divider font-bold" id='contact'>CONTACT WITH ME</div>
+            <div className="divider font-bold my-5" id='contact'>CONTACT WITH ME</div>
             <ContactForm></ContactForm>
             <ProjectDetailsModal></ProjectDetailsModal>
         </div>

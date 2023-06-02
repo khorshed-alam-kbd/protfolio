@@ -14,7 +14,7 @@ const Banner = () => {
         })
     }
     return (
-        <div className="my-10 bg-base-100">
+        <div className="my-10 bg-base-100 mt-20">
             <div>
                 <div className="">
                     <p className='my-3'>Hi, my name is</p>
