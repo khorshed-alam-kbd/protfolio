@@ -16,6 +16,8 @@ const Main = () => {
             })
         })
     }
+
+
     return (
         <div>
             <div className="drawer drawer-end">
@@ -25,11 +27,11 @@ const Main = () => {
                     <div className='grid grid-cols-12'>
                         <div className='hidden lg:grid text-center absolute bottom-0 left-3'>
                             <div className="menu menu-vertical ">
-                                <li><a href="https://github.com/khorshed-alam-kbd/" target="blank"><FaGithub /></a></li>
-                                <li><a href="https://linkedin.com/in/khorshedalam-kbd/" target="blank"><FaLinkedinIn /></a></li>
-                                <li><a href="https://facebook.com/engr.khorshedalam.bd/" target="blank"><FaFacebook /></a></li>
-                                <li><a href="https://instagram.com/khor__shed/" target="blank"><FaInstagram /></a></li>
-                                <li><a href="https://twitter.com/khor__shed" target="blank"><FaTwitter /></a></li>
+                                <li><a href="https://github.com/khorshed-alam-kbd/" target="blank" className='hover:border-l-2 hover:border-amber-300' ><FaGithub /></a></li>
+                                <li><a href="https://linkedin.com/in/khorshedalam-kbd/" target="blank" className='hover:border-l-2 hover:border-amber-300'><FaLinkedinIn /></a></li>
+                                <li><a href="https://facebook.com/engr.khorshedalam.bd/" target="blank" className='hover:border-l-2 hover:border-amber-300' ><FaFacebook /></a></li>
+                                <li><a href="https://instagram.com/khor__shed/" target="blank" className='hover:border-l-2 hover:border-amber-300'><FaInstagram /></a></li>
+                                <li><a href="https://twitter.com/khor__shed" target="blank" className='hover:border-l-2 hover:border-amber-300'><FaTwitter /></a></li>
                                 <div style={{ writingMode: 'vertical-rl' }}>_________________________</div>
                             </div>
                         </div>

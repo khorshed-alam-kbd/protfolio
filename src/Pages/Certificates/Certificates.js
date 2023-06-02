@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
+
 import img1 from '../../Assets/black_belt_certificate_ph.png'
 import img2 from '../../Assets/professional_web_development_certificate.jpg'
 import img3 from '../../Assets/Bsc_CSE_Certificate.jpg'
@@ -32,11 +35,15 @@ const Certificates = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {certificates.map((certificate, index) => (
                     <div key={index} className="bg-base-200 p-4 rounded shadow">
-                        <img
-                            src={certificate.image}
-                            alt={certificate.title}
-                            className="w-full object-cover mb-4"
-                        />
+                        <PhotoProvider>
+                            <PhotoView src={certificate.image}>
+                                <img
+                                    src={certificate.image}
+                                    alt={certificate.title}
+                                    className="w-full object-cover mb-4"
+                                />
+                            </PhotoView>
+                        </PhotoProvider>
                         <div>
                             <h3 className="text-lg font-bold mb-2">{certificate.title}</h3>
                             <p className="text-gray-400 mb-1 font-semibold">{certificate.issuer}</p>

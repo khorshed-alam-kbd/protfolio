@@ -1,4 +1,6 @@
 import React from 'react';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 
 import image from '../../Assets/antic-22_certificate_.jpg'
 import { FaAngleDoubleRight } from 'react-icons/fa';
@@ -8,15 +10,19 @@ const IntConferencePublication = () => {
     const handleJournalClick = (link) => {
         window.open(link, '_blank');
     };
+
+
     return (
         <div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                 <div className="bg-base-200 p-4 rounded shadow">
-                    <img
-                        src={image}
-                        alt=''
-                        className="w-full object-cover"
-                    />
+
+                    <PhotoProvider>
+                        <PhotoView src={image}>
+                            <img src={image} alt='2nd International Conference on Advanced Network Technologies and Intelligent Computing (ANTIC-2022) certificate' className="w-full object-cover" />
+                        </PhotoView>
+                    </PhotoProvider>
+
                 </div>
 
                 <div className="bg-base-200 p-5 rounded shadow grid place-content-center ">

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../../Assets/khorshed-photo.jpg'
 
@@ -16,8 +16,9 @@ const Header = () => {
         })
     }
 
+
     return (
-        <div className="navbar bg-base-100 px-10 fixed z-30">
+        <div className="navbar bg-base-100 px-10 fixed z-30 ">
             <div className="navbar-start">
                 <div className="avatar online">
                     <div className="w-12 rounded-full">

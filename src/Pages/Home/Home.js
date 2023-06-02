@@ -8,8 +8,10 @@ import Skills from '../Skills/Skills';
 import Certificates from '../Certificates/Certificates';
 import IntConferencePublication from '../IntConferencePublication/IntConferencePublication';
 const Home = () => {
+
+
     return (
-        <div className=''>
+        <div>
             <Banner></Banner>
             <div className="divider font-bold my-5" id='projects'>PROJECTS</div>
             <Project></Project>
