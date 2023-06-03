@@ -12,8 +12,8 @@ const Project = () => {
                 <figure className='p-3 rounded-xl'><img src={platinam} alt="platinam" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">PLATINAM</h2>
-                    <p>PLATINAM - is laptops resealing website</p>
-                    <p>Technology: React.js | React Query | React Hook Form | MongoDB | Node.js | Express.js | Firebase | Tailwind CSS | Daisy UI | Vercel | JWT.</p>
+                    <p className=''>PLATINAM - is laptops resealing website</p>
+                    <p className='text-gray-400'>Technology: React.js | React Query | React Hook Form | MongoDB | Node.js | Express.js | Firebase | Tailwind CSS | Daisy UI | Vercel | JWT.</p>
                     <div className="card-actions justify-between items-center bg-base-100 p-3 rounded-xl">
                         <label htmlFor="my-project-1" className='btn btn-xs btn-outline'>Details</label>
                         <a href="https://platinam-swap.web.app/" target="blank"> <FaExternalLinkAlt></FaExternalLinkAlt></a>
@@ -25,7 +25,7 @@ const Project = () => {
                 <div className="card-body">
                     <h2 className="card-title">KA PHOTOGRAPHY</h2>
                     <p>KA PHOTOGRAPHY- is weeding photography website</p>
-                    <p>Technology: React.js | Node.js | Express.js | MongoDB | Firebase | Tailwind CSS, Daisy UI | Vercel | React photo view | JWT.</p>
+                    <p className='text-gray-400'>Technology: React.js | Node.js | Express.js | MongoDB | Firebase | Tailwind CSS, Daisy UI | Vercel | React photo view | JWT.</p>
                     <div className="card-actions justify-between items-center bg-base-100 p-3 rounded-xl">
                         <label htmlFor="my-project-2" className='btn btn-xs btn-outline'>Details</label>
                         <a href="https://ka-photography.web.app/" target="blank"> <FaExternalLinkAlt></FaExternalLinkAlt></a>
@@ -37,7 +37,7 @@ const Project = () => {
                 <div className="card-body">
                     <h2 className="card-title">PLATINAM TUTORIAL</h2>
                     <p>PLATINAM TUTORIAL- is e-Learning website</p>
-                    <p>Technology: React js | Bootstrap | React Bootstrap | JavaScript | Node.js | Express.js, Firebase | Vercel | React-to-pdf.</p>
+                    <p className='text-gray-400'>Technology: React js | Bootstrap | React Bootstrap | JavaScript | Node.js | Express.js, Firebase | Vercel | React-to-pdf.</p>
                     <div className="card-actions justify-between items-center bg-base-100 p-3 rounded-xl">
                         <label htmlFor="my-project-3" className='btn btn-xs btn-outline'>Details</label>
                         <a href="https://platinam-tutorial.web.app/" target="blank"> <FaExternalLinkAlt></FaExternalLinkAlt></a>

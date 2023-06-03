@@ -23,7 +23,7 @@ const ContactForm = () => {
 
     return (
         <>
-            <p className='text-center'>Get In Touch. Just send me a message, I will get back to you!.</p>
+            <p className='text-center text-gray-400'>Get In Touch. Just send me a message, I will get back to you!.</p>
             <div className="hero bg-base-100 my-5">
                 <div className="">
                     <div className="card w-full shadow-2xl bg-base-200">
@@ -54,7 +54,7 @@ const ContactForm = () => {
                                     <textarea name="message" placeholder="Massage" className="textarea textarea-bordered" required />
                                 </div>
                                 <div className="form-control mt-6">
-                                    <button type="submit" className="btn btn-primary">Send</button>
+                                    <button type="submit" className="btn btn-outline">Send</button>
                                 </div>
                             </form>
                         </div>
