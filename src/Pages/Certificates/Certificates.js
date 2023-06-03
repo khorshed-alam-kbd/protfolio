@@ -34,7 +34,7 @@ const Certificates = () => {
         <div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {certificates.map((certificate, index) => (
-                    <div key={index} className="bg-base-200 p-4 rounded shadow">
+                    <div key={index} className="bg-base-200 p-4 mx-auto w-72 lg:w-80 rounded-xl shadow-xl mb-5 ">
                         <PhotoProvider>
                             <PhotoView src={certificate.image}>
                                 <img
