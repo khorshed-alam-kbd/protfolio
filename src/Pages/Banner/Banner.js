@@ -19,13 +19,13 @@ const Banner = () => {
             <div>
                 <div className="">
                     <p className='my-3 text-gray-400'>Hi, my name is</p>
-                    <h1 className="text-2xl lg:text-5xl font-bold my-3">MD. KHORSHED ALAM</h1>
+                    <h1 className="text-2xl lg:text-5xl font-bold my-3 ">MD. KHORSHED ALAM</h1>
 
-                    <div className="text-xl lg:text-3xl font-bold my-3">
+                    <div className="text-xl text-amber-800 lg:text-3xl font-bold my-3">
                         <Typewriter
 
                             options={{
-                                strings: ['FRONT-END DEVELOPER', 'MERN STACK DEVELOPER', 'WEB DEVELOPER'],
+                                strings: ['FRONT-END DEVELOPER', 'MERN-STACK DEVELOPER'],
                                 autoStart: true,
                                 loop: true,
                             }}

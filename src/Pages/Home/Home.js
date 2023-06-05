@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="divider font-bold my-10" id='projects'>PROJECTS</div>
+            <div className="divider font-bold my-10 " id='projects'>PROJECTS</div>
             <Project></Project>
             <div className="divider font-bold my-10" id='skills' >SKILLS & TECHNOLOGIES</div>
             <Skills></Skills>

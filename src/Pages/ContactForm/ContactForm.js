@@ -24,7 +24,9 @@ const ContactForm = () => {
     return (
         <>
             <p className='text-center text-gray-400'>Get In Touch. Just send me a message, I will get back to you!.</p>
+
             <div className="hero bg-base-100 my-5">
+
                 <div className="">
                     <div className="card w-full shadow-2xl bg-base-200">
                         <div className="card-body">

@@ -25,7 +25,7 @@ const Header = () => {
                         <img src={img} alt="" />
                     </div>
                 </div>
-                <Link to='/' className='lg:text-xl font-semibold px-3'>KHORSHED ALAM</Link>
+                <Link to='/' className='lg:text-xl font-semibold px-3 ' >KHORSHED ALAM</Link>
             </div>
 
             <div className="navbar-end">
