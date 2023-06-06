@@ -25,9 +25,8 @@ const ContactForm = () => {
         <>
             <p className='text-center text-gray-400'>Get In Touch. Just send me a message, I will get back to you!.</p>
 
-            <div className="hero bg-base-100 my-5">
-
-                <div className="">
+            <div className="p-5 grid place-content-center ">
+                <div className="mx-auto">
                     <div className="card w-full shadow-2xl bg-base-200">
                         <div className="card-body">
                             <form ref={form} onSubmit={sendEmail} className='lg:w-80'>
