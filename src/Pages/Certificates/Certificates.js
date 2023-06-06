@@ -46,7 +46,7 @@ const Certificates = () => {
                         </PhotoProvider>
                         <div>
                             <h3 className="text-lg font-bold mb-2">{certificate.title}</h3>
-                            <p className="text-gray-400 mb-1 font-semibold">{certificate.issuer}</p>
+                            <p className="text-gray-400 mb-1">{certificate.issuer}</p>
                             <p className="text-gray-500">{certificate.date}</p>
                         </div>
                     </div>

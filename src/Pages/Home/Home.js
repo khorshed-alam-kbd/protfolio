@@ -15,7 +15,7 @@ const Home = () => {
             <Banner></Banner>
             <div className="divider font-bold my-10 " id='projects'>PROJECTS</div>
             <Project></Project>
-            <div className="divider font-bold mt-10" id='skills' >SKILLS & TECHNOLOGIES</div>
+            <div className="divider font-bold my-10" id='skills' >SKILLS & TECHNOLOGIES</div>
             <Skills></Skills>
             <div className="divider font-bold my-10" id='skills'>CERTIFICATIONS</div>
             <Certificates></Certificates>

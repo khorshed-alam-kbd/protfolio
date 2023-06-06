@@ -19,7 +19,7 @@ const Banner = () => {
             <div>
                 <div className="">
                     <p className='my-3 text-gray-400'>Hi, my name is</p>
-                    <h1 className="text-2xl lg:text-5xl font-bold my-3 ">MD. KHORSHED ALAM</h1>
+                    <p className="text-3xl lg:text-5xl font-bold my-3 ">MD. KHORSHED ALAM</p>
 
                     <p className="text-xl text-amber-800 lg:text-3xl font-bold my-3">
                         <Typewriter
