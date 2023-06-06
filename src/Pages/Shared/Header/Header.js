@@ -18,14 +18,14 @@ const Header = () => {
 
 
     return (
-        <div className="navbar bg-base-100 px-10 fixed z-30 ">
+        <div className="navbar bg-base-100 px-5 lg:px-10 fixed z-30 ">
             <div className="navbar-start">
-                <div className="avatar online">
+                {/* <div className="avatar online">
                     <div className="w-12 rounded-full">
                         <img src={img} alt="" />
                     </div>
-                </div>
-                <Link to='/' className='text-lg lg:text-4xl px-3' id='name-logo' >Khorshed Alam</Link>
+                </div> */}
+                <Link to='/' className='text-3xl lg:text-5xl p-1' id='name-logo' >Khorshed Alam</Link>
             </div>
 
             <div className="navbar-end">
