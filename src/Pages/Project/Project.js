@@ -25,7 +25,7 @@ const Project = () => {
                 <div className="card-body">
                     <h2 className="card-title">KA PHOTOGRAPHY</h2>
                     <p>KA PHOTOGRAPHY- is weeding photography website</p>
-                    <p className='text-gray-400'>Technology: React.js | Node.js | Express.js | MongoDB | Firebase | Tailwind CSS, Daisy UI | Vercel | React photo view | JWT.</p>
+                    <p className='text-gray-400'>Technology: React.js | Node.js | Express.js | MongoDB | Firebase | Tailwind CSS | Daisy UI | Vercel | React photo view | JWT.</p>
                     <div className="card-actions justify-between items-center bg-base-100 p-3 rounded-xl">
                         <label htmlFor="my-project-2" className='btn btn-xs btn-outline'>Details</label>
                         <a href="https://ka-photography.web.app/" target="blank"> <FaExternalLinkAlt></FaExternalLinkAlt></a>

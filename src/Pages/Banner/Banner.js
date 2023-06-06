@@ -21,7 +21,7 @@ const Banner = () => {
                     <p className='my-3 text-gray-400'>Hi, my name is</p>
                     <h1 className="text-2xl lg:text-5xl font-bold my-3 ">MD. KHORSHED ALAM</h1>
 
-                    <div className="text-xl text-amber-800 lg:text-3xl font-bold my-3">
+                    <p className="text-xl text-amber-800 lg:text-3xl font-bold my-3">
                         <Typewriter
 
                             options={{
@@ -31,7 +31,7 @@ const Banner = () => {
                             }}
                         />
 
-                    </div>
+                    </p>
                     <p className='my-3 lg:w-1/2 text-gray-400'>I am completed Bachelor of Science in Computer Science and Engineering from the World University of Bangladesh. I am developing web applications and working across MERN Stack development .</p>
                     <Link onClick={downloadResume} className="btn  btn-outline mt-3 mr-3">Resume</Link>
                     <a href="/#contact"><button className="btn btn-outline mt-3">HIRE ME</button></a>
