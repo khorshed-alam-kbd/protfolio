@@ -27,6 +27,7 @@ const Home = () => {
             <div className="divider font-bold my-10" id='contact'>CONTACT WITH ME</div>
             <ContactForm></ContactForm>
             <ProjectDetailsModal></ProjectDetailsModal>
+
         </div>
     );
 };

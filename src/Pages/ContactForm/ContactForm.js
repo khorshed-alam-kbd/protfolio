@@ -13,7 +13,7 @@ const ContactForm = () => {
                 console.log(result.text);
                 Swal.fire({
                     icon: 'success',
-                    title: 'Massage is sending successfully',
+                    title: 'Thank you for getting in touch',
                 })
                 e.target.reset()
             }, (error) => {
@@ -22,10 +22,10 @@ const ContactForm = () => {
     };
 
     return (
-        <>
+        <div>
             <p className='text-center text-gray-400'>Get In Touch. Just send me a message, I will get back to you!.</p>
 
-            <div className="p-5 grid place-content-center ">
+            <div className="w-full p-5 grid place-content-center ">
                 <div className="mx-auto">
                     <div className="card w-full shadow-2xl bg-base-200">
                         <div className="card-body">
@@ -50,9 +50,9 @@ const ContactForm = () => {
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Massage:</span>
+                                        <span className="label-text">Message:</span>
                                     </label>
-                                    <textarea name="message" placeholder="Massage" className="textarea textarea-bordered" required />
+                                    <textarea name="message" placeholder="Message" className="textarea textarea-bordered" required />
                                 </div>
                                 <div className="form-control mt-6">
                                     <button type="submit" className="btn btn-outline">Send</button>
@@ -62,7 +62,8 @@ const ContactForm = () => {
                     </div>
                 </div>
             </div>
-        </>
+            <iframe className='w-full mt-10 rounded-xl' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12284.476071322779!2d90.36523124273663!3d23.74036812093079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf4a5de53a75%3A0xf27ef22645e193c6!2sJigatola%2C%20Dhaka%201205!5e0!3m2!1sen!2sbd!4v1692107872751!5m2!1sen!2sbd" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     );
 };
 

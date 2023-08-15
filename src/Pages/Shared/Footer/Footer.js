@@ -13,7 +13,7 @@ const Footer = () => {
                     <li><a href="https://twitter.com/khor__shed" target="blank" className='hover:border-b-2 hover:border-amber-300'><FaTwitter /></a></li>
                 </div>
                 <div>
-                    <h1>Copyright © 2023 - All right reserved by KHORSHED ALAM</h1>
+                    <h1>Copyright © 2023 - All right reserved by <span className=''> KHORSHED ALAM</span></h1>
                 </div>
             </footer>
         </div>
